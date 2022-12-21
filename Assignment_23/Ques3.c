@@ -4,10 +4,10 @@
  
 int main(void){
     system("cls");
-    char str[20];
+    char str[100];
     int words=0;
     printf("Enter a String: ");
-    fgets(str,20,stdin);
+    fgets(str,100,stdin);
     str[strlen(str)-1]='\0';
     if(strlen(str)>0){
         for(int i=0;str[i];i++)
